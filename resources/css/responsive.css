@@ -1,0 +1,46 @@
+@media only screen and (max-width:1024px){
+    html{
+        font-size: 57.5%;
+    }
+    .row{
+        margin: 0 15px;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .client_photo{
+        float: none;
+        text-align: center;
+    }
+    .client_review{
+        width: 100%;
+        text-align: center;
+    }
+    .get-in-touch form{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:768px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .little-description{
+        width: 100%;
+    }
+}
